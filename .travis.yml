@@ -1,4 +1,9 @@
 language: java
 jdk:
    - oraclejdk8
+addons:
+   sonarcloud:
+      organization: "zuoyuanh-github"
+      token:
+         secure: 27396f59f14142c90ddbae0a0feb4c803115e341
 script: ant build
